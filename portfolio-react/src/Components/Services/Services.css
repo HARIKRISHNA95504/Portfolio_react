@@ -73,3 +73,34 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media(max-width:768px){
+    .services{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+
+    }
+    .services-title h1{
+        padding: 0px;
+        font-size: 50px;
+    }
+    .services-format{
+        gap: 10px;
+        padding: 20px;
+    }
+    .services-format h2{
+        font-size: 30px;
+    }
+    .services-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 200px;
+    }
+    .services-readmode img{
+        width: 20px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}

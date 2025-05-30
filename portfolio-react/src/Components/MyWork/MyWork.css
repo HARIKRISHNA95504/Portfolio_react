@@ -57,3 +57,22 @@
     gap:30px;
     background: linear-gradient(264deg, #34D399 -5.09%, #6366F1 106.28%)
 }
+@media(max-width:768px){
+ .mywork{
+    align-items: start;
+    gap: 30px;
+    margin: 0px 70px;
+ }
+ .mywork-title h1{
+    padding: 0px;
+    font-size: 50px;
+ }
+ .mywork-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+ }
+ .mywork-showmore{
+    padding: 15px 50px;
+    font-size: 20px;
+ }
+}

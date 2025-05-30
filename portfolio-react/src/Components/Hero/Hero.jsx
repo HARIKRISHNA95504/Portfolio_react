@@ -1,5 +1,5 @@
 import React from "react";
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/hero.jpg'
 import '../Hero/Hero.css'
 const Hero=()=>{
     return(
