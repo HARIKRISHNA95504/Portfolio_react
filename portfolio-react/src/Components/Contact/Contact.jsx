@@ -34,7 +34,6 @@ const Contact =()=>{
         <div id="contact" className="contact">
             <div className="contact-title">
                 <h1>Get in touch</h1>
-                {/* <img src={theme_pattern} alt="" /> */}
             </div>
             <div className="contact-section">
                 <div className="contact-left">
@@ -59,7 +58,7 @@ const Contact =()=>{
                     <label htmlFor="">Your Name</label>
                     <input type="text" placeholder="Enter Your Name" name="name"/>
                     <label htmlFor="">Your Email</label>
-                    <input type="email" placeholder="Enter Your Name" name="email"/>
+                    <input type="email" placeholder="Enter Your Name" name="email" required/>
                     <label htmlFor="">Write Your Message</label>
                     <textarea name="message" rows="8" placeholder="Enter Your Message"></textarea>
                     <button type="submit" className="contact-submit">Submit Now</button>

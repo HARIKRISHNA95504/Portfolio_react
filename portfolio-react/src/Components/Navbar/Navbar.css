@@ -1,36 +1,4 @@
-/* *{
-    margin: 0;
-    padding:0;
-}
-body{
-    height:100vh;
-    background:#161513;
-    color: white;
-}
-.navbar{
-    display:flex;
-    align-items: center;
-    justify-content:space-between ;
-    margin: 15px  ;
-}
-.nav-menu{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap: 60px;
-    font-size: 20px;
-}
-.nav-connect{
-    padding: 10px 30px;
-    border-radius: 40px;
-    background: linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.03%);
-    font-size: 22px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.nav-connect:hover{
-transform: scale(1.05);
-} */
+
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +7,7 @@ transform: scale(1.05);
 
 body {
   height: 100vh;
-  background: #0F172A; /* Updated dark background */
+  background: #0F172A; 
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -48,7 +16,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 15px;
+  margin: 15px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding: 0 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 
@@ -66,24 +45,14 @@ body {
 }
 
 .nav-menu li:hover {
-  color: #38BDF8; /* Hover color updated to sky blue */
+  color: #38BDF8; 
 }
-/* .nav-menu li:hover {
-  background: linear-gradient(267deg, #38BDF8, #6366F1);
-  color: white;
-  transform: scale(1.05);
-} */
-/* .nav-menu li {
-  cursor: pointer;
-  transition: all 0.3s ease;
-  padding: 8px 16px;
-  border-radius: 30px;
-} */
+
 
 .nav-connect {
   padding: 10px 30px;
   border-radius: 40px;
-  background: linear-gradient(267deg, #38BDF8 0.36%, #6366F1 102.03%); /* New gradient */
+  background: linear-gradient(267deg, #38BDF8 0.36%, #6366F1 102.03%);
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
@@ -113,6 +82,9 @@ body {
 }
 .nav-mob-open{
   display: none;
+}
+.nav-menu li:hover{
+  text-decoration: underline;
 }
 @media(max-width:768px){
     .navbar{
@@ -154,3 +126,5 @@ body {
       gap: 20px;
     }
 }
+
+

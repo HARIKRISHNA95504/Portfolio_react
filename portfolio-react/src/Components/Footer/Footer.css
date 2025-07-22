@@ -72,4 +72,91 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
+    .footer-top-right{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    align-items: center;
+}
+}
+/* Extra Small Devices (Phones up to 480px) */
+@media (max-width: 479px) {
+  .footer {
+    margin: 40px 30px;
+    gap: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-top-left p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .footer-top-right {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .footer-email-input {
+    display: flex;
+    padding: 16px 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  .footer-subscribe {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  .footer-bottom-right {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+
+/* Medium Devices (Tablets: 768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin: 50px 60px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-email-input {
+    width: 100%;
+    padding-right: 30px;
+  }
+
+  .footer-subscribe {
+    font-size: 18px;
+    padding: 16px 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-size: 17px;
+  }
+
+  .footer-bottom-right {
+    gap: 18px;
+  }
 }
