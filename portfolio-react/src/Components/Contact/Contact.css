@@ -34,7 +34,7 @@
 }
 .contact-left p{
     max-width: 550px;
-    color: hwb(162 21% 17%);
+    color:  #38BDF8;
     font-size: 17px;
     line-height: 30px;
 }
@@ -57,7 +57,7 @@
     gap: 15px;
 }
 .contact-right label{
-    color: #65e8b8ea;
+    color: #38BDF8;
     font-size: 18px;
     font-weight: 500;
 }
