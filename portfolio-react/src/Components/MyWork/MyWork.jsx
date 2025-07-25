@@ -12,14 +12,14 @@ const MyWork = () => {
             description: "A responsive E-commerce website built with React and Jawascript and Node.js. Features dark mode, smooth animations, and contact form integration.",
             technologies: ["React", "JavaScript", "Node.js","MongoDB", "HTML5", "CSS3"],
             liveUrl: "https://example.com",
-            githubUrl: "https://github.com/example",
+            githubUrl: "https://github.com/HARIKRISHNA95504/FS-E-commerce",
             featured: true
         },
         {
             title: "Employee Management App",
             description: "A full-stack workforce application with CRUD operations, user authentication, and local storage. Built as a learning project for understanding React state management.",
             technologies: ["React","Javascript", "Node.js", "MongoDB","HTML5", "CSS3"],
-            liveUrl: "employee-mang-web-app-6v4n.vercel.app",
+            liveUrl: "https://employee-mang-web-app-6v4n.vercel.app/",
             githubUrl: "https://github.com/HARIKRISHNA95504/Employee_Mang_web_app",
             featured: true
         },
