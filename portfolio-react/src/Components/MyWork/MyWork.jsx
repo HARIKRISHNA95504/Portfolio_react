@@ -95,15 +95,17 @@ const MyWork = () => {
                                     </div>
 
                                     <div className="project-actions">
-                                        <button className="btn-outline">
+                                        <a href={project.liveUrl} >
+                                            <button className="btn-outline">
                                             <span className="icon"><img src={arrowLink} alt="" /></span>
                                             Live Demo
                                         </button>
-                                        <a href="https://github.com/HARIKRISHNA95504">
+                                        </a>
+                                        <a href={project.githubUrl}>
                                             <button className="btn-ghost">
                                             <span className="icon"><img src={code} alt="code_icon" /></span>
                                             Code
-                                        </button>
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
