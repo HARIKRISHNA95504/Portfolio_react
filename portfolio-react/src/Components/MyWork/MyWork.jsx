@@ -19,7 +19,7 @@ const MyWork = () => {
             title: "Employee Management App",
             description: "A full-stack workforce application with CRUD operations, user authentication, and local storage. Built as a learning project for understanding React state management.",
             technologies: ["React","Javascript", "Node.js", "MongoDB","HTML5", "CSS3"],
-            liveUrl: "https://example.com",
+            liveUrl: "employee-mang-web-app-6v4n.vercel.app",
             githubUrl: "https://github.com/HARIKRISHNA95504/Employee_Mang_web_app",
             featured: true
         },
